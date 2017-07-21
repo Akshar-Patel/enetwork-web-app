@@ -1,0 +1,104 @@
+/*
+    Document   : index.css
+    Created on : Dec 22, 2010, 11:17:04 AM
+    Author     : akshar
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+
+
+   border radius:
+
+   -webkit-border-radius
+   -border-radius
+*/
+
+root {
+    display: block;
+}
+body
+{
+    width: 900px;
+    margin:0 auto;
+    font-family: arial,sans-serif;
+    font:normal;
+}
+h1
+{
+    font-size:30pt;
+    margin-top:10px;
+    padding-top:20px;
+}
+.header
+{
+    height:100px;
+    padding-left:20px;
+    background:#1A77BD;
+    -moz-border-radius-topleft:20px;
+    -moz-border-radius-topright:20px;
+    color:white;
+}
+.row
+{
+    float:left;
+    width:890px;
+    border-left:5px solid #1A77BD;
+    border-right:5px solid #1A77BD;
+    min-height: 400px;
+}
+.col
+{
+    float:left;
+}
+.form_col
+{
+    width: 590px;
+    margin:20px auto 20px auto;
+    clear: both;
+    background:#1A77BD;
+    color:white;
+    border:1px solid #1A77BD;
+    -moz-border-radius:10px;
+}
+.footer
+{
+    clear:both;
+    height:50px;
+    line-height:50px;
+    padding-left:20px;
+    color:white;
+    background:#1A77BD;
+    -moz-border-radius-bottomleft:20px;
+    -moz-border-radius-bottomright:20px;
+    margin-bottom:10px;
+}
+.green_button
+{
+    border:0px;
+    background:#5FBD4F;
+    padding:5px;
+   border-radius:5px;
+    -moz-border-radius:3px;
+}
+.green_button:hover
+{
+    background:#6DE859;
+
+}
+.green_textbox
+{
+    border:2px solid #5FBD4F;
+    -moz-border-radius:3px;
+}
+.blue_textbox
+{
+    border:2px solid #1A77BD;
+    -moz-border-radius:3px;
+}
+
+
+
