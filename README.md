@@ -7,7 +7,7 @@
 * Platform: Web Browser
 * Modules: Profile, Photos, Videos, Friends, Posts, Comments
 * Lines of Code: 17021
-* Duration: 4 Months (FEB-2011)
+* Duration: 4 Months (FEB 2011 - MAY 2011)
 
 ### Screenshots
 
